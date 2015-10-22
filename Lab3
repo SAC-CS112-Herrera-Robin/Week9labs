@@ -1,0 +1,15 @@
+
+public class RandomNumber {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int randomNum;
+		int min=1, max=10;
+		randomNum = min +(int)(Math.random()* max);
+	
+		System.out.printf("Your random number is %d", randomNum);
+		
+		
+	}
+
+}
